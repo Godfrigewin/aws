@@ -1,0 +1,70 @@
+Linux - session1:
+------------------
+All the tools will be installed through the Linux server
+
+Pre-requisite s/w : 
+-------------------
+	1. SSH tool - Secure Shell -- connect to Linux server and execute commands and to install/uninstall s/w
+		-Putty
+		-Super Putty
+		-Mobaxterm
+		-Git bash
+	2. FTP Tool - File Transfer Protocol - transfer and recieve files
+		- WinSCP (Windows Secure Copy) - supports only windows 
+		- Filezilla - supports windows/MAC OS
+		- CyberDuck
+	
+Introduction to Linux:
+-----------------------
+- Linus is an Operating system developed from C language
+- Linux was started around 1991 by Linus Torlvads 
+- Linux is a multi-user, multi-tasking OS
+- Linux is an Open Source not like AIX - IBM, Sun Solaris - Sun Microsystems, HP-UX - HP based UNIX
+- Linux is "case-sensitive" ls is different from LS
+
+Linux distributions/flavours:
+-----------------------------
+	1. Redhat ---> Opted
+	2. CentOS
+	3. Ubuntu
+	4. Suse Linux
+	5. Fedora
+	6. Gentoo
+	7. Mandriva
+	8. Debian
+	9. Slackware
+
+Linux directory structure/file structure:
+-----------------------------------------
+
+Folders---windows
+Directory---MAC,Linux,AIX
+
+/--->parent directory/root directory
+
+/home - is a sub-directory, contains all users information.
+	for each user one directory will be created in Linux
+	/home/divya
+/lib - contains system libraries -- accessable by all the three users
+/sbin - system bin - shutdown and reboot -- only the root user can access all directories and files under it
+/bin - contains all binary files of commands -- accessable by all the three users
+/etc - contains all the configuration files -- only root user can access
+	sudoers
+	passwd
+	shadow
+	group
+	cron.allow
+/var - contain variable files or log files -- normal user as well as root user cann access this directory
+/opt - optional by default this directory will be empty. this directory is used only for s/w installation -- 	only root user can access this directory
+/proc - process. for every command there will be a process id generated and that will be stored in this 	directory or this directory also contain important CPU information as well -- any user can access
+/dev - used by working professional and development environment is the abbrivation of dev. contains all device 	information -- normal user and root user
+/tmp - temporary directory. can be accessed by all the user.
+	As a normal user we cannot access the other user home directory. So we can have a common temporary 		directory for all user through which each user can access everyother users directory stored in tem dir'
+
+Types of users in Linux:
+-------------------------
+1. root user -1 root user --admin user
+2. normal user - 'n' no.of normal user
+3. system user - user is created by s/w installation
+	ex: Jenkins--->Jenkins
+
