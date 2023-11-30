@@ -1,0 +1,29 @@
+/ =root folder
+cd =change directory
+
+note--- /etc extended text config
+        /usr  user system resources
+		
+		/tmp temporary files
+		/var variable info
+		
+		
+mkdir = make directories
+mkdir -p = make parent directories
+
+the three major permission groups
+1.u=owner
+2.g=group owner
+3.o=others
+
+permissions--rwx=read write execute
+
+ls=list items
+ls -l =long list		
+
+touch
+nano
+vim
+ctrl=^
+
+^l
